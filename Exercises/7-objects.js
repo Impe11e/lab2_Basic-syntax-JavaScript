@@ -11,16 +11,11 @@ const fn = () => {
   const mariia = { name: 'Mariia Khorunzha' };
   let rachel = { name: 'Rachel Amber' };
 
-  console.log(mariia);
-  console.log(rachel);
-
   mariia.name = 'Oksana';
   rachel.name = 'Chloe';
 
   rachel = { name: 'Max Caulfield' };
 
-  console.log(mariia);
-  console.log(rachel);
 };
 
 // mariia = { name: 'Marusya Churay' } TypeError: Assignment

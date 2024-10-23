@@ -28,7 +28,6 @@ const calculate = () => {
     const averageCalculate = average(square(i), cube(i));
     result.push(averageCalculate);
   }
-  console.log(result);
   return result;
 };
 
